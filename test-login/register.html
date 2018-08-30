@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" href="css/skeleton.css">
+  <title>Bug Tracking System</title>
+</head>
+<body style="background-image: url('./images/trial2.jpg');background-size:content;">
+    <div style="background: lightgray;margin:7% auto;width:35%;padding:2%;opacity:0.95;border:1px solid white;border-radius:1em ;box-shadow:2px 2px 5px white,-2px -2px 5px white;">
+  <h2 class='text-primary'>Login</h2>
+
+
+  <form action="register.php" method="post" autocomplete="off">
+    <div class="row">
+      <div class="row">
+      <label for="uname" class="u-full-width">User Name</label>
+      <input type="text" name='uname' class="u-full-width">
+      </div>
+      <div class="row">
+        <label for="umail" class="u-full-width">Email</label>
+        <input type="text" name='umail' class="u-full-width">
+      </div>
+      <div class="row">
+      <label for="upwd" class="u-full-width">Password</label>
+      <input type="password" name="upwd" class="u-full-width">
+      </div>
+      <div class="row">
+        <label for="spec" class="u-full-width">Technologies Known</label>
+        <input type="text" name='spec' class="u-full-width">
+      </div>
+      <div class="row">
+        <button class="button-primary u-full-width" type="submit">
+          Register
+        </button>
+        <div class="row" style="float:right">
+          <label for="login" class="u-full-width">Already registered ?</label>
+        <input class="button-primary" type="button" onclick="window.location='index.html'" value="Login"/>
+        </div>
+      </div>
+    </div>
+  </form>
+  </div>
+</body>
+</html>
